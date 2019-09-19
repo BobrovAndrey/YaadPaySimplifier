@@ -8,5 +8,5 @@ https://www.npmjs.com/package/yaadpaysimplifier
 1. User 'npm i yaadpaysimplifier' or clone/download  
 2. Install latest version of [node.js](https://nodejs.org/en/)
 
-## Exapmple
+## Example
 const yaadSimplifier = require('YaadPaySimplifier')
