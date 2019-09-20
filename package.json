@@ -1,17 +1,23 @@
 {
-  "name": "yaadpaypaymentsystemsimplifier",
-  "version": "1.0.0",
+  "name": "yaadpaysimplifier",
+  "version": "1.1.0",
   "description": "simple way to use YaadPay payment system",
   "main": "YaadPay.js",
+  "bin": "YaadPay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "yaadpay",
+    "YaadPay"
+  ],
+  "author": "Bobrov Andrey",
   "license": "MIT",
   "devDependencies": {
     "superagent": "^5.1.0"
   },
-  "dependencies": {
-    "yaadpaysimplifier": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobrovAndrey/YaadPaySimplifier"
   }
 }
