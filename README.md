@@ -43,7 +43,7 @@ This payment method will allow you to handle payment, when you need to pass Card
 -------------------------
 Same to 'cardCredentials', but payment must be commited due some time.
 
-###'commitPostpone'
+### 'commitPostpone'
 -------------------------
 Part of 'cardCredentialsPostpone' payment method. Will confirm pending payment.
 
