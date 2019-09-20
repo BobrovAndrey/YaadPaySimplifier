@@ -31,11 +31,10 @@ $ npm i yaadpaysimplifier
 ## Description
 Original YaadPay documentation: https://yaadpay.docs.apiary.io/#introduction
 
-YPS comes with:
+YPS comes with payment methods:
 
 ### 'cardCredentials'
 -------------------------
-
 This payment method will allow you to handle payment, when you need to pass Card Owner credentials from your API direct to YaadPay.
 (credit card credentials will be given from your API)
 
@@ -56,3 +55,33 @@ This payment method will allow you to handle payment, when you need to pass Card
 -------------------------
 This payment method will allow you to handle payment, when you need to confirm payment later, using YaadPay token.
 (without saving card number and cvv)
+
+# Fields
+### Required
+terminalNumber - your YaadPay terminal number. Can be obtained from YaadPay after registration (https://icom.yaad.net/p3/?action=login)
+
+info - payment information
+
+amount - amount of items (1 by default)
+
+userId - in case the credit card company dosn't require ID, you can send 9 zero's ('000000000' by default)
+
+coin  - currency (1 - ILS/ 2  - USD/ 3 - EURO/ 4 - Pound)
+
+
+### Optional
+name - clien's predefined name
+lastName - client's predefined last name
+
+street - client's predefined last street
+
+city - client's predefined last city
+
+zipCode - client's predefined last zip code
+
+
+
+### Original YaadPay articles:
+
+  https://yaadpay.yaad.net/developers/article.php?id=84
+ 
