@@ -47,12 +47,12 @@ Same to 'cardCredentials', but payment must be commited due some time.
 -------------------------
 Part of 'cardCredentialsPostpone' payment method. Will confirm pending payment.
 
-###'refPostpone'
+### 'refPostpone'
 -------------------------
 This payment method will allow you to handle payment, when you need to pass Card Owner credentials from YaadPay payment page.
 (credit card credentials will be given from outside of your API)
 
-###'getToken'
+### 'getToken'
 -------------------------
 This payment method will allow you to handle payment, when you need to confirm payment later, using YaadPay token.
 (without saving card number and cvv)
