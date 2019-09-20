@@ -34,20 +34,25 @@ Original YaadPay documentation: https://yaadpay.docs.apiary.io/#introduction
 YPS comes with:
 
 1) 'cardCredentials'
+-------------------------
 
 This payment method will allow you to handle payment, when you need to pass Card Owner credentials from your API direct to YaadPay.
 (credit card credentials will be given from your API)
 
 2) 'cardCredentialsPostpone'
+-------------------------
 Same to 'cardCredentials', but payment must be commited due some time.
 
 3) 'commitPostpone'
+-------------------------
 Part of 'cardCredentialsPostpone' payment method. Will confirm pending payment.
 
 4) 'refPostpone
+-------------------------
 This payment method will allow you to handle payment, when you need to pass Card Owner credentials from YaadPay payment page.
 (credit card credentials will be given from outside of your API)
 
 5) 'getToken'
+-------------------------
 This payment method will allow you to handle payment, when you need to confirm payment later, using YaadPay token.
 (without saving card number and cvv)
